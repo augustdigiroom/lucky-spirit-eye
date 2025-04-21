@@ -8,7 +8,6 @@
 body {
     font-family: 'Winky Rough', sans-serif;
     color: #ffffff;
-    background-color: darkblue;
 }
 
  .landing-section {
@@ -36,7 +35,7 @@ body {
       position: relative;
       z-index: 2;
     }
-    
+
 .landing-content h1 {
       font-size: 3rem;
       font-weight: bold;
@@ -61,3 +60,85 @@ body {
       background-color: #0056b3;
       color: #fff;
     }
+
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: 'Winky Rough', cursive;
+  color: blue !important;
+}
+
+.landing-section {
+  background-image: url(./images/homepage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative; /* Essential fix */
+}
+
+.lucky-eye-title {
+  font-family: 'Libre Bodoni', serif;
+}
+
+.custom-title {
+      font-family: 'Libre Bodoni', serif;
+      color: #007BFF; /* Bootstrap Blue */
+    }
+
+.custom-paragraph {
+      font-family: 'Winky Rough', cursive;
+      color: #000000;
+    }
+
+.section-container {
+      padding: 50px 0;
+    }
+
+.carousel-img {
+      height: 300px;
+      object-fit: cover;
+    }
+
+/* Carousel Section Background */
+.carousel-section {
+    background-color: #fdf9f8;
+}
+
+/* Make carousel images square */
+.carousel-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.card {
+      border: 2px solid #007bff; /* Blue border */
+    }
+
+.card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+
+.site-footer {
+  background-color: #001f3f; /* Dark blue */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+}
+
+.site-footer p {
+  margin: 0;
+}
