@@ -142,4 +142,67 @@ body {
 .site-footer p {
   margin: 0;
 }
+ 
+/* Responsive Typography */
+.landing-content h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+  .landing-content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-content h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Responsive Button */
+.shop-btn {
+  font-size: 1rem;
+  padding: 10px 25px;
+}
+
+@media (min-width: 768px) {
+  .shop-btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+  }
+}
+
+/* Make carousel and cards responsive */
+.carousel-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.card-img-top {
+  height: auto;
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Stack text and image on smaller devices */
+@media (max-width: 767.98px) {
+  .carousel-section .row {
+    flex-direction: column;
+  }
+
+  .carousel-section .col-md-6 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Make featured products stack on small screens */
+@media (max-width: 767.98px) {
+  #products .col-md-4 {
+    width: 100%;
+  }
+}
 
